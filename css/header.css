@@ -1,0 +1,22 @@
+.header {
+    height: 70px;
+}
+
+
+.header__container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
