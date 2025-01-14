@@ -20,3 +20,22 @@
     gap: 30px;
     align-items: center;
 }
+
+.header__btn {
+    border: 1px solid white;
+    border-radius: 20px;
+    max-height: 35px;
+    max-width: 120px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+}
+
+.header__btn:hover {
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+}
